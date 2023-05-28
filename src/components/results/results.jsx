@@ -25,7 +25,7 @@ export const Results = () => {
   const getData = () => {
     axios
       .get(
-        `https://vrbo-hotel-api.herokuapp.com/hotels?_page=${page}&_limit1=10`
+        `https://hotel-api-gavf.onrender.com/hotels?_page=${page}&_limit=10`
       )
       .then((res) => setMainData(res.data));
   };

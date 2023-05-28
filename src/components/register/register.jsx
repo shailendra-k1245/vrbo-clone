@@ -35,7 +35,7 @@ export const Register = () => {
       last_name !== "" &&
       pass.match(passValidate)
     ) {
-      axios.post("https://still-badlands-85906.herokuapp.com/users", data);
+      axios.post("https://hotel-api-gavf.onrender.com/users", data);
       navigate("/login");
     } else if (!email.match(emailValidate)) {
       alert("Please enter a valid email");

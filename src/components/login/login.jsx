@@ -15,7 +15,7 @@ export const SignIn_page = () => {
     let passCheck = false;
     // console.log("clicked");
     const res = await axios.get(
-      "https://still-badlands-85906.herokuapp.com/users"
+      "https://hotel-api-gavf.onrender.com/users"
     );
     const data = res.data;
     // console.log(data);
